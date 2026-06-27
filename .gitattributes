@@ -1,0 +1,5 @@
+# Force GitHub to recognize .h files as C instead of C++
+*.h linguist-language=C
+
+# Enforce consistent line endings across different operating systems
+* text=auto eol=lf

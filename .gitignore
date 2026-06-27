@@ -1,0 +1,12 @@
+# Compiled Object files
+*.o
+*.exe
+calc
+
+# Editor and OS generated files
+.vscode/
+.vs/
+*.swp
+*~
+.DS_Store
+Thumbs.db

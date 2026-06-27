@@ -1,0 +1,17 @@
+CFLAGS = -Wall
+
+# 1. The final executable links the individual .o files
+calc.exe: main.o apc.o
+	gcc $(CFLAGS) main.o apc.o -o calc.exe
+
+# 2. Compile main.c into main.o
+main.o: main.c apc.h
+	gcc $(CFLAGS) -c main.c -o main.o
+
+# 3. Compile apc.c into apc.o
+apc.o: apc.c apc.h
+	gcc $(CFLAGS) -c apc.c -o apc.o
+
+# 4. Clean rule
+clean:
+	rm -f main.o apc.o calc.exe
