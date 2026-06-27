@@ -18,7 +18,7 @@ This project utilizes an industry-standard `Makefile` for automated, clean compi
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Akshay-Mittha-1324/Arbitrary-Precision-Calculator.git
    cd APC
    ```
 2. Build the project using `make` (or `mingw32-make` on some Windows setups):
@@ -56,9 +56,9 @@ Run the compiled executable `calc.exe` from your terminal by passing the operand
 ```
 
 ## Output:
-![APC Demo](Output1.png)
-![APC Demo2](Output2.png)
-![APC Demo3](Output3.png)
+![APC Demo](assets/Output1.png)
+![APC Demo2](assets/Output2.png)
+![APC Demo3](assets/Output3.png)
 
 ## Architecture
 - **Data Structure:** A custom Doubly Linked List (`Dlist`) where each node is heavily optimized to hold a single decimal digit (`char`).
